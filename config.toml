@@ -1,0 +1,22 @@
+baseurl = "https://iotpentest.com/"
+languageCode = "en-us"
+title = "IoTPentesting | Mr-IoT"
+theme = "hugo-theme-learn"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+  # Prefix URL to edit current page. Useful to give opportunity to people to create merge request for your doc.
+  # See the config.toml file from this documentation site to have an example.
+ #editURL = "https://github.com/V33RU/documentation/blob/master/content/"
+  # Author of the site, will be used in meta information
+ author = "Mr-IoT"
+  # Description of the site, will be used in meta information
+  description = "This website maintaining complete guide for IoT Pentesting"
+  # Shows a checkmark for visited pages on the menu. Default to false
+ showVisitedLinks = false
+  # Automatically generates prev and next arrows
+  autoNav = true
+  # Coloring of the documentatio#n website
+  themeVariant = "blue" # TODO: Use custom UTN blue: https://learn.netlify.com/en/basics/style-customization/#yours-variant
